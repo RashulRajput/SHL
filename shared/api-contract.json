@@ -1,0 +1,33 @@
+{
+  "health": {
+    "method": "GET",
+    "path": "/health",
+    "response": {
+      "status": "ok"
+    }
+  },
+  "chat": {
+    "method": "POST",
+    "path": "/chat",
+    "request": {
+      "messages": [
+        {
+          "role": "user",
+          "content": "string"
+        }
+      ]
+    },
+    "response": {
+      "reply": "string",
+      "recommendations": [
+        {
+          "name": "string",
+          "url": "string",
+          "test_type": "string"
+        }
+      ],
+      "end_of_conversation": false
+    }
+  }
+}
+
