@@ -1,19 +1,20 @@
 {
   "source": "https://www.shl.com/products/product-catalog/",
   "scope": "Individual Test Solutions",
-  "scraped_at": "2026-05-14T17:13:18.821826+00:00",
-  "count": 377,
+  "scraped_at": "2026-05-16T14:46:46.400312+00:00",
+  "count": 370,
   "assessments": [
     {
       "id": "3827",
       "name": ".NET Framework 4.5",
       "url": "https://www.shl.com/products/product-catalog/view/net-framework-4-5/",
-      "remote_testing": true,
-      "adaptive_irt": true,
+      "description": "The.NET Framework 4.5 test measures knowledge of .NET environment. Designed for experienced users, this test covers the following topics: Application Development, Application Foundation, Data Modeling, Deployment, Diagnostics, Performance, Portability, and Security.",
       "test_types": [
         "K"
       ],
-      "description": "The.NET Framework 4.5 test measures knowledge of .NET environment. Designed for experienced users, this test covers the following topics: Application Development, Application Foundation, Data Modeling, Deployment, Diagnostics, Performance, Portability, and Security.",
+      "remote_testing": true,
+      "adaptive_irt": true,
+      "duration": "30",
       "job_levels": [
         "Professional Individual Contributor",
         "Mid-Professional"
@@ -21,7 +22,6 @@
       "languages": [
         "English (USA)"
       ],
-      "duration": "30",
       "downloads": [
         "https://service.shl.com/docs/Fact_Sheet-dotnet_framework_4.5.pdf"
       ],
@@ -242,12 +242,13 @@
       "id": "4178",
       "name": "Accounts Payable (New)",
       "url": "https://www.shl.com/products/product-catalog/view/accounts-payable-new/",
-      "remote_testing": true,
-      "adaptive_irt": false,
+      "description": "Multiple-choice test that measures the knowledge of processing payables and vendor invoices, and the posting of journal entries.",
       "test_types": [
         "K"
       ],
-      "description": "Multiple-choice test that measures the knowledge of processing payables and vendor invoices, and the posting of journal entries.",
+      "remote_testing": true,
+      "adaptive_irt": false,
+      "duration": "9",
       "job_levels": [
         "Entry-Level",
         "Graduate",
@@ -257,7 +258,6 @@
       "languages": [
         "English (USA)"
       ],
-      "duration": "9",
       "downloads": [
         "https://service.shl.com/docs/Accounts Payable (New).pdf",
         "https://service.shl.com/docs/Accounts Payable (New) Sample Report.pdf"
@@ -268,12 +268,13 @@
       "id": "4187",
       "name": "Accounts Payable Simulation (New)",
       "url": "https://www.shl.com/products/product-catalog/view/accounts-payable-simulation-new/",
-      "remote_testing": true,
-      "adaptive_irt": false,
+      "description": "Simulated data entry test that measures the ability to process payables and vendor invoices.",
       "test_types": [
         "S"
       ],
-      "description": "Simulated data entry test that measures the ability to process payables and vendor invoices.",
+      "remote_testing": true,
+      "adaptive_irt": false,
+      "duration": "8",
       "job_levels": [
         "Entry-Level",
         "Graduate",
@@ -283,7 +284,6 @@
       "languages": [
         "English (USA)"
       ],
-      "duration": "8",
       "downloads": [
         "https://service.shl.com/docs/Accounts Payable Simulation (New).pdf",
         "https://service.shl.com/docs/Accounts Payable Simulation (New) Sample Report.pdf"
@@ -596,29 +596,6 @@
       "duration": "11",
       "downloads": [
         "https://service.shl.com/docs/Angular 6 (New).pdf"
-      ],
-      "source": "shl_catalog"
-    },
-    {
-      "id": "4021",
-      "name": "AngularJS (New)",
-      "url": "https://www.shl.com/products/product-catalog/view/angularjs-new/",
-      "remote_testing": true,
-      "adaptive_irt": false,
-      "test_types": [
-        "K"
-      ],
-      "description": "Multi-choice test that measures the knowledge of AngularJS architecture, forms, directives, filters, controllers, routing and testing.",
-      "job_levels": [
-        "Mid-Professional",
-        "Professional Individual Contributor"
-      ],
-      "languages": [
-        "English (USA)"
-      ],
-      "duration": "9",
-      "downloads": [
-        "https://service.shl.com/docs/AngularJS (New).pdf"
       ],
       "source": "shl_catalog"
     },
@@ -1926,29 +1903,6 @@
       "source": "shl_catalog"
     },
     {
-      "id": "4013",
-      "name": "Data Science (New)",
-      "url": "https://www.shl.com/products/product-catalog/view/data-science-new/",
-      "remote_testing": true,
-      "adaptive_irt": false,
-      "test_types": [
-        "K"
-      ],
-      "description": "Multi-choice test that measures the conceptual knowledge on how to use machine learning to analyze data, extract information, draw conclusions and make statistically-driven decisions.",
-      "job_levels": [
-        "Mid-Professional",
-        "Professional Individual Contributor"
-      ],
-      "languages": [
-        "English (USA)"
-      ],
-      "duration": "14",
-      "downloads": [
-        "https://service.shl.com/docs/Data Science (New).pdf"
-      ],
-      "source": "shl_catalog"
-    },
-    {
       "id": "56",
       "name": "Data Warehousing Concepts",
       "url": "https://www.shl.com/products/product-catalog/view/data-warehousing-concepts/",
@@ -3180,30 +3134,6 @@
       "source": "shl_catalog"
     },
     {
-      "id": "4043",
-      "name": "Fundamentals of Physics (New)",
-      "url": "https://www.shl.com/products/product-catalog/view/fundamentals-of-physics-new/",
-      "remote_testing": true,
-      "adaptive_irt": false,
-      "test_types": [
-        "K"
-      ],
-      "description": "Multi-choice test that measures the knowledge of classical mechanics, Newton's laws of motion, electromagnetism, EM waves, thermodynamics and modern physics.",
-      "job_levels": [
-        "Graduate",
-        "Mid-Professional",
-        "Professional Individual Contributor"
-      ],
-      "languages": [
-        "English (USA)"
-      ],
-      "duration": "8",
-      "downloads": [
-        "https://service.shl.com/docs/Fundamentals of Physics (New).pdf"
-      ],
-      "source": "shl_catalog"
-    },
-    {
       "id": "4048",
       "name": "General Diseases (New)",
       "url": "https://www.shl.com/products/product-catalog/view/general-diseases-new/",
@@ -3306,13 +3236,15 @@
       "id": "4301",
       "name": "Global Skills Assessment",
       "url": "https://www.shl.com/products/product-catalog/view/global-skills-assessment/",
-      "remote_testing": true,
-      "adaptive_irt": false,
+      "description": "The Global Skills Assessment (GSA) is an assessment used to measure 96 discrete skills/behaviors. These 96 skill scores are directly aligned to the most discrete level of SHL\u2019s Universal Competency Framework (UCF). The GSA measures self-reported behaviors an individual currently engages in. A person\u2019s skills (sets of behavior) are malleable and may change over time. SHL utilizes GSA scores to understand what the participant reports they can do today.",
       "test_types": [
         "C",
         "K"
       ],
-      "description": "The Global Skills Assessment (GSA) is an assessment used to measure 96 discrete skills/behaviors. These 96 skill scores are directly aligned to the most discrete level of SHL\u2019s Universal Competency Framework (UCF). The GSA measures self-reported behaviors an individual currently engages in. A person\u2019s skills (sets of behavior) are malleable and may change over time. SHL utilizes GSA scores to understand what the participant reports they can do today.",
+      "remote_testing": true,
+      "adaptive_irt": false,
+      "duration": "16",
+      "job_levels": [],
       "languages": [
         "Indonesian",
         "Italian",
@@ -3341,12 +3273,10 @@
         "Portuguese",
         "Turkish"
       ],
-      "duration": "16",
       "downloads": [
         "https://service.shl.com/docs/GSA Product Fact Sheet USE.pdf"
       ],
-      "source": "shl_catalog",
-      "job_levels": []
+      "source": "shl_catalog"
     },
     {
       "id": "4302",
@@ -3942,12 +3872,13 @@
       "id": "4084",
       "name": "Java 8 (New)",
       "url": "https://www.shl.com/products/product-catalog/view/java-8-new/",
-      "remote_testing": true,
-      "adaptive_irt": false,
+      "description": "Multi-choice test that measures the knowledge of Java class design, exceptions, generics, collections, concurrency, JDBC and Java I/O fundamentals.",
       "test_types": [
         "K"
       ],
-      "description": "Multi-choice test that measures the knowledge of Java class design, exceptions, generics, collections, concurrency, JDBC and Java I/O fundamentals.",
+      "remote_testing": true,
+      "adaptive_irt": false,
+      "duration": "18",
       "job_levels": [
         "Mid-Professional",
         "Professional Individual Contributor"
@@ -3955,7 +3886,6 @@
       "languages": [
         "English (USA)"
       ],
-      "duration": "18",
       "downloads": [
         "https://service.shl.com/docs/Java 8 (New).pdf"
       ],
@@ -4055,12 +3985,13 @@
       "id": "3989",
       "name": "JavaScript (New)",
       "url": "https://www.shl.com/products/product-catalog/view/javascript-new/",
-      "remote_testing": true,
-      "adaptive_irt": false,
+      "description": "Multi-choice test that measures knowledge of programming in the JavaScript language and its application in front-end development.",
       "test_types": [
         "K"
       ],
-      "description": "Multi-choice test that measures knowledge of programming in the JavaScript language and its application in front-end development.",
+      "remote_testing": true,
+      "adaptive_irt": false,
+      "duration": "9",
       "job_levels": [
         "Mid-Professional",
         "Professional Individual Contributor"
@@ -4068,7 +3999,6 @@
       "languages": [
         "English (USA)"
       ],
-      "duration": "9",
       "downloads": [
         "https://service.shl.com/docs/JavaScript (New).pdf"
       ],
@@ -4862,29 +4792,6 @@
       "source": "shl_catalog"
     },
     {
-      "id": "4091",
-      "name": "Microservices (New)",
-      "url": "https://www.shl.com/products/product-catalog/view/microservices-new/",
-      "remote_testing": true,
-      "adaptive_irt": false,
-      "test_types": [
-        "K"
-      ],
-      "description": "Multi-choice test that measures the knowledge of Microservices architecture, SOA, and Microservices patterns.",
-      "job_levels": [
-        "Mid-Professional",
-        "Professional Individual Contributor"
-      ],
-      "languages": [
-        "English (USA)"
-      ],
-      "duration": "7",
-      "downloads": [
-        "https://service.shl.com/docs/Microservices (New).pdf"
-      ],
-      "source": "shl_catalog"
-    },
-    {
       "id": "4092",
       "name": "Microsoft Dynamics Development (New)",
       "url": "https://www.shl.com/products/product-catalog/view/microsoft-dynamics-development-new/",
@@ -4998,27 +4905,6 @@
         "https://service.shl.com/docs/Microsoft PowerPoint 365 - Essentials.pdf"
       ],
       "source": "shl_catalog"
-    },
-    {
-      "id": "3789",
-      "name": "Microsoft SQL Server 2014 Programming",
-      "url": "https://www.shl.com/products/product-catalog/view/microsoft-sql-server-2014-programming/",
-      "remote_testing": true,
-      "adaptive_irt": true,
-      "test_types": [
-        "K"
-      ],
-      "description": "The Microsoft SQL Server 2014 Programming test measures knowledge of Microsoft Structure Query Language (SQL) Server 2014 Programming. Designed for experienced database programmers, this test covers the following topics: Beyond Relational, Control Flow, Data Types and NULL, Database Design, Developer Tools, Modifying Data, Running Queries, and Writing Queries.",
-      "job_levels": [
-        "Mid-Professional",
-        "Professional Individual Contributor"
-      ],
-      "languages": [
-        "English (USA)"
-      ],
-      "duration": "35",
-      "source": "shl_catalog",
-      "downloads": []
     },
     {
       "id": "3807",
@@ -5356,126 +5242,6 @@
       "duration": ""
     },
     {
-      "id": "1309",
-      "name": "MQ Motivation Report Pack",
-      "url": "https://www.shl.com/products/product-catalog/view/mq-motivation-report-pack/",
-      "remote_testing": true,
-      "adaptive_irt": false,
-      "test_types": [
-        "P"
-      ],
-      "description": "The MQ Report pack consists of the Profile Chart, Employee Motivation Report and the Candidate Report and is a cost effective way of ensuring that your organisation takes a comprehensive approach to understanding what motivates its employees.",
-      "job_levels": [
-        "General Population",
-        "Graduate",
-        "Manager",
-        "Mid-Professional",
-        "Professional Individual Contributor",
-        "Supervisor",
-        "Director",
-        "Entry-Level",
-        "Executive",
-        "Front Line Manager"
-      ],
-      "languages": [
-        "Chinese Simplified",
-        "English International",
-        "English (USA)"
-      ],
-      "downloads": [
-        "https://service.shl.com/docs/MQ Motivation Pack Std v2.0 English International.pdf",
-        "https://service.shl.com/docs/MQ Motivation Pack Std v2.0 English (US).pdf",
-        "https://service.shl.com/docs/MQ Motivation Pack Std v2.0 Chinese Simplified.pdf"
-      ],
-      "source": "shl_catalog",
-      "duration": ""
-    },
-    {
-      "id": "1048",
-      "name": "MQ Profile",
-      "url": "https://www.shl.com/products/product-catalog/view/mq-profile/",
-      "remote_testing": true,
-      "adaptive_irt": false,
-      "test_types": [
-        "P"
-      ],
-      "description": "The profile chart is the Sten score graphical output of the MQ. It clearly shows the individual\u2019s motivational drivers compared to the selected norm group as well as highlighting any unique scores. Please note this report is currently being updated on Talent Central as part of a reporting refresh project, and there may be visual differences when comparing Talent Central reports to ones generated on other assessment platforms. Differences are regarding the layout and display of the reports only and do not affect the underlying scoring. When viewing sample reports, please ensure you select the appropriate language and platform example. Where a sample report has no platform indicated, it is available on both the Talent Central and SODA platforms.",
-      "job_levels": [
-        "Director",
-        "Entry-Level",
-        "Executive",
-        "Front Line Manager",
-        "General Population",
-        "Graduate",
-        "Manager",
-        "Mid-Professional",
-        "Professional Individual Contributor",
-        "Supervisor"
-      ],
-      "languages": [
-        "Flemish",
-        "French (Belgium)",
-        "Spanish",
-        "Danish",
-        "Dutch",
-        "Finnish",
-        "French (Canada)",
-        "French",
-        "German",
-        "Greek",
-        "Italian",
-        "Norwegian",
-        "Polish",
-        "Portuguese",
-        "Russian",
-        "Swedish",
-        "English International",
-        "English (USA)",
-        "Romanian",
-        "Indonesian",
-        "Turkish",
-        "Chinese Simplified",
-        "Hungarian"
-      ],
-      "downloads": [
-        "https://service.shl.com/docs/MQ Profile (TC Version) English International.pdf",
-        "https://service.shl.com/docs/MQ Profile Std v2.0 English International.pdf",
-        "https://service.shl.com/docs/MQ Profile Std v2.0 French (Canada).pdf",
-        "https://service.shl.com/docs/MQ Profile Std v2.0 LAS.pdf.pdf",
-        "https://service.shl.com/docs/MQ Profile (TC Version) English (US).pdf",
-        "https://service.shl.com/docs/MQ Profile Std v2.0 English (US).pdf",
-        "https://service.shl.com/docs/MQ Profile (TC Version) Chinese Simplified.pdf.pdf",
-        "https://service.shl.com/docs/MQ Profile Std v2.0 Chinese Simplified.pdf",
-        "https://service.shl.com/docs/MQ Profile Std v2.0 Indonesian.pdf",
-        "https://service.shl.com/docs/MQ Profile Std v2.0 Japanese.pdf",
-        "https://service.shl.com/docs/MQ Profile Std v2.0 Danish.pdf",
-        "https://service.shl.com/docs/MQ Profile (TC Version) Dutch.pdf",
-        "https://service.shl.com/docs/MQ Profile Std v2.0 Dutch.pdf",
-        "https://service.shl.com/docs/MQ Profile Std v2.0 Finnish.pdf",
-        "https://service.shl.com/docs/MQ Profile (TC Version) French.pdf",
-        "https://service.shl.com/docs/MQ Profile Std v2.0 French.pdf",
-        "https://service.shl.com/docs/MQ Profile (TC Version) German.pdf",
-        "https://service.shl.com/docs/MQ Profile Std v2.0 German.pdf",
-        "https://service.shl.com/docs/MQ Profile Std v2.0 Greek.pdf",
-        "https://service.shl.com/docs/MQ Profile Std v2.0 Hungarian.pdf",
-        "https://service.shl.com/docs/MQ Profile (TC Version) Italian.pdf",
-        "https://service.shl.com/docs/MQ Profile Std v2.0 Italian.pdf",
-        "https://service.shl.com/docs/MQ Profile Std v2.0 Latvian.pdf.pdf",
-        "https://service.shl.com/docs/MQ Profile Std v2.0 Norwegian.pdf",
-        "https://service.shl.com/docs/MQ Profile Std v2.0 Polish.pdf",
-        "https://service.shl.com/docs/MQ Profile Std v2.0 Portuguese.pdf",
-        "https://service.shl.com/docs/MQ Profile Std v2.0 Romanian.pdf",
-        "https://service.shl.com/docs/MQ Profile Std v2.0 Russian.pdf",
-        "https://service.shl.com/docs/MQ Profile Std v2.0 Slovakian.pdf",
-        "https://service.shl.com/docs/MQ Profile Std v2.0 Spanish.pdf",
-        "https://service.shl.com/docs/MQ Profile Std v2.0 Swedish.pdf",
-        "https://service.shl.com/docs/MQ Profile Std v2.0 Turkish.pdf",
-        "https://service.shl.com/docs/MQ Profile Std v2.0 BR_PT.pdf.pdf"
-      ],
-      "source": "shl_catalog",
-      "duration": ""
-    },
-    {
       "id": "4015",
       "name": "MS Access (New)",
       "url": "https://www.shl.com/products/product-catalog/view/ms-access-new/",
@@ -5778,12 +5544,13 @@
       "id": "720",
       "name": "Occupational Personality Questionnaire OPQ32r",
       "url": "https://www.shl.com/products/product-catalog/view/occupational-personality-questionnaire-opq32r/",
-      "remote_testing": true,
-      "adaptive_irt": false,
+      "description": "The SHL Occupational Personality Questionnaire, the OPQ32, is one of the most widely used and respected measures of workplace behavioural style in the world. It sets a high standard of measurement excellence, providing HR professionals and business managers with relevant and accurate information to make fast and well-informed people decisions. The OPQ32 provides a clear framework for understanding the impact of personality on job performance. It is internationally recognised for its accuracy of assessment. Over 90 independent validation studies have been conducted on the OPQ over a period of 25 years, across 20 countries and 40 industries, providing concrete evidence of its power to predict performance in the workplace.",
       "test_types": [
         "P"
       ],
-      "description": "The SHL Occupational Personality Questionnaire, the OPQ32, is one of the most widely used and respected measures of workplace behavioural style in the world. It sets a high standard of measurement excellence, providing HR professionals and business managers with relevant and accurate information to make fast and well-informed people decisions. The OPQ32 provides a clear framework for understanding the impact of personality on job performance. It is internationally recognised for its accuracy of assessment. Over 90 independent validation studies have been conducted on the OPQ over a period of 25 years, across 20 countries and 40 industries, providing concrete evidence of its power to predict performance in the workplace.",
+      "remote_testing": true,
+      "adaptive_irt": false,
+      "duration": "Untimed, approx. 25",
       "job_levels": [
         "Professional Individual Contributor",
         "Supervisor",
@@ -5836,7 +5603,6 @@
         "Malay",
         "Vietnamese"
       ],
-      "duration": "Untimed, approx. 25",
       "downloads": [
         "https://service.shl.com/docs/OPQ Product Fact Sheet (1).pdf",
         "https://service.shl.com/docs/OPQ Fact Sheet FR.pdf"
@@ -7776,12 +7542,13 @@
       "id": "4123",
       "name": "Python (New)",
       "url": "https://www.shl.com/products/product-catalog/view/python-new/",
-      "remote_testing": true,
-      "adaptive_irt": false,
+      "description": "Multi-choice test that measures the knowledge of Python programming, databases, modules and library.",
       "test_types": [
         "K"
       ],
-      "description": "Multi-choice test that measures the knowledge of Python programming, databases, modules and library.",
+      "remote_testing": true,
+      "adaptive_irt": false,
+      "duration": "11",
       "job_levels": [
         "Mid-Professional",
         "Professional Individual Contributor"
@@ -7789,7 +7556,6 @@
       "languages": [
         "English (USA)"
       ],
-      "duration": "11",
       "downloads": [
         "https://service.shl.com/docs/Python (New).pdf"
       ],
@@ -10186,12 +9952,13 @@
       "id": "3745",
       "name": "Verify - Numerical Ability",
       "url": "https://www.shl.com/products/product-catalog/view/verify-numerical-ability/",
-      "remote_testing": true,
-      "adaptive_irt": true,
+      "description": "The next-generation Verify Numerical Ability Test provides a replacement for the existing Numerical Reasoning test in our Verify range of ability tests and the Global Cognitive Index \u2013 Adaptive Quantitative test, and measures the ability to:\r\n\u2022\tDerive the numerical problem from a written problem\r\n\u2022\tCalculate the answer to numerical equations\r\n\u2022\tWork with numerical data in a realistic workplace context\r\n\r\nThe test is 20 minutes long, has 16 items and is designed to provide an indication of how an individual will perform when asked to work with numerical information or statistical details.",
       "test_types": [
         "A"
       ],
-      "description": "The next-generation Verify Numerical Ability Test provides a replacement for the existing Numerical Reasoning test in our Verify range of ability tests and the Global Cognitive Index \u2013 Adaptive Quantitative test, and measures the ability to:\r\n\u2022\tDerive the numerical problem from a written problem\r\n\u2022\tCalculate the answer to numerical equations\r\n\u2022\tWork with numerical data in a realistic workplace context\r\n\r\nThe test is 20 minutes long, has 16 items and is designed to provide an indication of how an individual will perform when asked to work with numerical information or statistical details.",
+      "remote_testing": true,
+      "adaptive_irt": true,
+      "duration": "20",
       "job_levels": [
         "Director",
         "Entry-Level",
@@ -10237,7 +10004,6 @@
         "Thai",
         "Greek"
       ],
-      "duration": "20",
       "downloads": [
         "https://service.shl.com/docs/Verify_Numerical_Ability_Fact_Sheet.pdf"
       ],

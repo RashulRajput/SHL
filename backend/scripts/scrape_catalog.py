@@ -141,18 +141,24 @@ def scrape(output: Path, workers: int = 8, include_details: bool = True) -> dict
         start += 12
         time.sleep(0.2)
 
-    def enrich(row: dict[str, Any]) -> dict[str, Any]:
+    def enrich(row: dict[str, Any]) -> dict[str, Any] | None:
         local_session = requests.Session()
         local_session.headers.update({"User-Agent": USER_AGENT})
-        details = parse_detail_page(request_with_retry(local_session, row["url"]).text)
-        return with_defaults({**row, **details}, seed_details)
+        try:
+            details = parse_detail_page(request_with_retry(local_session, row["url"]).text)
+            return with_defaults({**row, **details}, seed_details)
+        except Exception as exc:
+            print(f"Skipping {row['url']} due to error: {exc}")
+            return None
 
     if include_details:
         assessments: list[dict[str, Any]] = []
         with ThreadPoolExecutor(max_workers=workers) as executor:
             futures = [executor.submit(enrich, row) for row in listed.values()]
             for index, future in enumerate(as_completed(futures), start=1):
-                assessments.append(future.result())
+                result = future.result()
+                if result:
+                    assessments.append(result)
                 if index % 25 == 0:
                     print(f"Enriched {index}/{len(listed)} detail pages")
     else:

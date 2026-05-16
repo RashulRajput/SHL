@@ -44,17 +44,22 @@ STOPWORDS = {
 SYNONYMS = {
     "developer": ["programmer", "software", "coding", "technical"],
     "engineer": ["software", "technical", "coding"],
-    "java": ["j2ee", "spring", "backend"],
-    "javascript": ["js", "node", "react", "front end", "frontend"],
+    "java": ["j2ee", "spring"],
+    "javascript": ["js", "node", "react", "frontend"],
     "frontend": ["react", "javascript", "html", "css"],
-    "backend": ["api", "server", "database", "java", "python"],
+    "backend": ["api", "server", "database"],
+    "python": ["django", "flask", "scripting"],
     "manager": ["leadership", "supervisor", "management"],
-    "sales": ["account", "customer", "negotiation"],
+    "sales": ["account", "customer", "negotiation", "revenue"],
+    "marketing": ["brand", "campaign", "advertising", "digital"],
     "personality": ["behavior", "behaviour", "opq", "workplace"],
     "cognitive": ["ability", "aptitude", "reasoning", "general ability"],
     "communication": ["verbal", "stakeholder", "english"],
     "finance": ["accounting", "payable", "receivable", "bank"],
     "graduate": ["entry", "early", "campus"],
+    "data": ["analytics", "analyst", "numerical", "statistics"],
+    "hr": ["human", "resources", "talent", "people"],
+    "customer": ["service", "support", "client", "contact"],
 }
 
 

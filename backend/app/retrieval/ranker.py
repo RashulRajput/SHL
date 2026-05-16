@@ -101,34 +101,67 @@ class HybridRetriever:
         text = assessment.retrieval_text.lower()
         boost = 0.0
 
-        tech_terms = {"java", "python", "javascript", "react", "sql", "developer", "engineer", "coding"}
+        # Generic tech knowledge boost — applies equally to all tech stacks
+        tech_terms = {"java", "python", "javascript", "react", "sql", "developer", "engineer", "coding",
+                      "c#", ".net", "ruby", "php", "swift", "kotlin", "typescript", "go", "rust"}
         if q_tokens & tech_terms and "K" in assessment.test_types:
-            boost += 1.8
+            boost += 1.5
+
+        # Generic name match — any query token appearing in assessment name
         for token in q_tokens:
             if len(token) > 2 and token in name:
-                boost += 1.1
-        if "java" in q_tokens and "java" in name:
-            boost += 3.0
-        if "java" in q_tokens and name.startswith("java 8"):
-            boost += 2.5
+                boost += 2.0
+
+        # Stakeholder / communication / leadership
         if q_tokens & {"stakeholder", "communication", "manager", "leadership"} and (
             {"P", "C", "B"} & set(assessment.test_types)
         ):
             boost += 1.4
+
+        # Personality / behavioral assessments
         if q_tokens & {"personality", "behavior", "behaviour", "culture"} and "P" in assessment.test_types:
             boost += 2.2
+
+        # Cognitive / aptitude assessments
         if q_tokens & {"cognitive", "aptitude", "ability", "reasoning"} and "A" in assessment.test_types:
             boost += 2.0
+
+        # Simulation / practical assessments
         if q_tokens & {"simulation", "hands", "practical"} and "S" in assessment.test_types:
             boost += 2.0
+
+        # Graduate / entry-level
         if q_tokens & {"graduate", "entry", "campus"} and (
             "graduate" in text or "entry" in text or "general population" in text
         ):
             boost += 1.4
+
+        # Marketing / sales / customer roles
+        if q_tokens & {"marketing", "sales", "customer", "account", "negotiation", "advertising"}:
+            if any(kw in text for kw in ["sales", "customer", "marketing", "account", "negotiation"]):
+                boost += 2.5
+
+        # Finance / accounting roles
+        if q_tokens & {"finance", "accounting", "bank", "payable", "receivable", "financial"}:
+            if any(kw in text for kw in ["finance", "accounting", "bank", "payable", "receivable"]):
+                boost += 2.5
+
+        # HR / people management
+        if q_tokens & {"hr", "human", "resources", "people", "talent"}:
+            if any(kw in text for kw in ["hr", "human resource", "people", "talent"]):
+                boost += 2.0
+
+        # Data / analytics roles
+        if q_tokens & {"data", "analytics", "analyst", "science", "statistics"}:
+            if any(kw in text for kw in ["data", "analytics", "analyst", "numerical"]):
+                boost += 2.0
+
+        # Named assessment aliases (OPQ, GSA)
         if q_tokens & {"opq"} and "opq" in name:
             boost += 5.0
         if q_tokens & {"gsa"} and "global skills assessment" in name:
             boost += 5.0
+
         return boost
 
     def _try_load_chroma(self):
