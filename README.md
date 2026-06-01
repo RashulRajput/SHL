@@ -14,7 +14,7 @@ Production-style conversational recommender for the SHL Labs AI Internship assig
     {
       "name": "string",
       "url": "string",
-      "test_type": "string".
+      "test_type": "string"
     }
   ],
   "end_of_conversation": false
