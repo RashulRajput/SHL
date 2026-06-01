@@ -7,7 +7,7 @@ Production-style conversational recommender for the SHL Labs AI Internship assig
 
 `POST /chat` is stateless. Every call receives the full conversation history and returns the exact evaluator schema:
 
-```json
+```json.
 {
   "reply": "string",
   "recommendations": [
