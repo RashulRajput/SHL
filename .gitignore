@@ -12,7 +12,7 @@ backend/data/chroma/
 backend/data/*.tmp.json
 
 # Node / Next.js
-frontend/node_modules/
+frontend/node_modules
 frontend/.next/
 frontend/out/
 frontend/tsconfig.tsbuildinfo
