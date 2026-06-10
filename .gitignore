@@ -14,7 +14,7 @@ backend/data/*.tmp.json
 # Node / Next.js
 frontend/node_modules
 frontend/.next/
-frontend/out
+frontend/out/
 frontend/tsconfig.tsbuildinfo
 frontend/.env.local
 frontend/.vercel/
